@@ -7,7 +7,7 @@ int main (void){
    string name;
    cout<<"Введите свое имя: ";cin>>name;
    if(typeid(name) == typeid(string)){
-      cout<<hw<<name<<endl;
+      cout<<hw<<name<<" 7 "<<endl;
    }else{
       cout<<"Неправильное тип переменной name";
    }
