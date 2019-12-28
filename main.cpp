@@ -8,7 +8,7 @@ int main (void){
    cout<<"Введите свое имя: ";cin>>name;
    if(typeid(name) == typeid(string)){
       cout<<hw<<name<<" 5 "<<endl;
-      cout<<"Сдели изменения в ветке master";
+      cout<<"Сдели изменения в ветке master и залили";
    }else{
       cout<<"Неправильное тип переменной name";
    }
