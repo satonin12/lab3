@@ -12,5 +12,6 @@ int main (void){
    }else{
       cout<<"Неправильное тип переменной name";
    }
+   cout<<"Привет"<<endl;
    return 0;
 }
